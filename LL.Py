@@ -153,16 +153,16 @@ ll.insert_head(6)
 ll.append(9)
 ll.insert_after(3, 6)
 ll.insert_after(11, 1)
-# ll.clear()
+ll.clear()
 
-# for i in range(0, 3):
-#     ll.delete_head()
+for i in range(0, 3):
+    ll.delete_head()
 
-# for i in range(0, 8):
-#     ll.pop()
-# ll.remove(6)
+for i in range(0, 8):
+    ll.pop()
+ll.remove(6)
 
-# ll.search(11)
+ll.search(11)
 ll.__getitem__(1)
 
 # Print the data in the linked list
